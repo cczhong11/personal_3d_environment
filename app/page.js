@@ -9,15 +9,15 @@ export default function Home() {
           <span className="status-pill">Personal 3D Home</span>
           <h1>Design your immersive home space.</h1>
           <p>
-            This Next.js home pairs IWSDK with a calm control hub. Explore the
-            3D scene, then keep your design ideas and daily notes right beside
-            it.
+            This Next.js home pairs Three.js with a calm control hub. Explore
+            the 3D scene, then keep your design ideas and daily notes right
+            beside it.
           </p>
         </div>
         <div className="panel">
           <h2>What you can do</h2>
           <ul style={{ marginTop: "1rem", lineHeight: 1.8 }}>
-            <li>Preview the IWSDK-powered home environment.</li>
+            <li>Preview the Three.js-powered home environment.</li>
             <li>Track inspiration, tasks, or reminders.</li>
             <li>Keep everything saved in your browser.</li>
           </ul>
@@ -27,7 +27,7 @@ export default function Home() {
       <HomeScene />
       <NotesPanel />
 
-      <footer>Built with Next.js and IWSDK.</footer>
+      <footer>Built with Next.js and Three.js.</footer>
     </main>
   );
 }
